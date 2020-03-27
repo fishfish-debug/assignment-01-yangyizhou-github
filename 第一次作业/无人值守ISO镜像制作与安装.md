@@ -135,6 +135,20 @@ mkisofs -r -V "Custom Ubuntu Install CD" \
 
 ![fetch](image/fetch.png)
 
+无人值守安装成功
+
+![success](image/success.png)
+
+定制化用户名密码登入成功
+
+
+
+## ![success1](image/success1.png)
+
+## 无人值守镜像安装过程
+
+![2020-03-28 01-08-36 (1) (1)](image/2020-03-28 01-08-36 (1) (1).gif)
+
 ## 遇到的问题
 
 1.使用sftp服务提示被拒绝访问。
@@ -152,3 +166,11 @@ mkisofs -r -V "Custom Ubuntu Install CD" \
 ![problem3](image/problem3.png)
 
 解决办法：应该是之前的线程没有结束，但我查看进程只有一个显示apt，Kill该进程后，依然显示锁定，于是直接重启解决问题。
+
+4.第一次制作的镜像过程没有问题，但在安装过程中没有自动安装
+
+解决方法：询问同学，是需要将label autoinstall放在前面。
+
+5.已经在isolinux.cfg文件中修改等待时间，但镜像安装过程等待还是30s。
+
+还没找到原因，未解决。
