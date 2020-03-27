@@ -147,7 +147,7 @@ mkisofs -r -V "Custom Ubuntu Install CD" \
 
 ## 无人值守镜像安装过程
 
-![2020-03-28 01-08-36 (1) (1)](image/2020-03-28 01-08-36 (1) (1).gif)
+![gif](https://github.com/20LinuxManagement/assignment-01-yangyizhou-github/blob/master/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E4%B8%9A/image/setup.gif)
 
 ## 遇到的问题
 
